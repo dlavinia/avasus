@@ -2,28 +2,36 @@
 
 :root {
     --text-color-dark: #2F2E41;
-    --text-color-light:#E0E0E0;
+    --text-color-light: #E0E0E0;
     --main-color: #D2202C;
     --footer-dark: #323237;
     --second-color: #707070;
     --footer-color: #424146;
     --bg-card: #F5F5F7;
-  }
-
-*{
+}
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-.page-container{
+.page-container {
     width: 65%;
     margin: 3rem auto;
 }
-ul{
+
+ul {
     list-style: none;
 }
-.btn{
+
+.count {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--text-color-dark);
+    margin-top: 30px;
+}
+
+.btn {
     border: 1px solid var(--second-color);
     font-size: 20px;
     font-weight: 500;
@@ -31,29 +39,35 @@ ul{
     padding: 8px 30px;
     margin-left: 16px;
 }
-.btn-primary{text-align: center;
+
+.btn-primary {
+    text-align: center;
     color: #fff;
-    background-color: var(--second-color);    
+    background-color: var(--second-color);
 }
-.btn-second{
-    color:  var(--second-color);
+
+.btn-second {
+    color: var(--second-color);
     background-color: #fff;
 }
-.title{
+
+.title {
     font-weight: 600;
     font-size: 40px;
     line-height: 37px;
     color: var(--main-color);
 }
 
-.bread-cumb{
+.bread-cumb {
     display: flex;
     font-weight: 600;
     font-size: 16px;
     line-height: 20px;
     margin: 30px 0;
 }
-.bread-cumb a{
+
+.bread-cumb a {
     color: var(--second-color);
     margin-right: 5px;
 }
+
