@@ -1,0 +1,51 @@
+<template>
+  <section id="parceiros">
+        <ul>
+            <li> 
+                <h2>Governo do RN</h2>
+                <p>Governo do Estado do Rio Grande do Norte.</p>
+            </li>
+            <li> 
+                <h2>SESAP</h2>
+                <p>Secretaria de Saúde Pública do Estado do Rio Grande do Norte..</p>
+            </li>
+            <li> 
+                <h2>UFRN</h2>
+                <p>Universidade Federal do Rio Grande do Norte.</p>
+            </li>
+            <li> 
+                <h2>HUOL</h2>
+                <p>Hospital Onofre Lopes: Hospital Universitário da UFRN (Universidade Federal do Rio Grande do Norte). </p>
+            </li>
+        </ul>
+  </section>
+</template>
+<script>
+export default {
+    name: 'ParceirosHome',
+}
+</script>
+<style scoped>
+    #parceiros{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+
+    }
+
+    ul{
+        display: flex;
+        background-color: var(--bg-card);
+        border-radius: 24px;
+        width: 70%;
+        padding: 1rem;
+        margin: 2rem 0;
+    }
+
+    ul li{
+        width: 25%;
+        text-align: center;
+        margin: 32px;
+    }
+</style>
+
