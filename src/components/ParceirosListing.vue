@@ -1,7 +1,12 @@
 <template>
-    <div class="card" v-for="item in listItems" :key="item.id">
-      <ParceirosCard :titulo=item.titulo :capa=item.capa ></ParceirosCard>
-    </div>
+  <section class="parceiros">
+
+      <p> {{ listItems.length }}</p>
+
+      <ParceirosCard  v-for="item in listItems" :key="item.id"
+      :titulo=item.titulo 
+      :capa=item.capa ></ParceirosCard> 
+    </section>
 </template>
 <script>
 import ParceirosCard from "@/components/ParceirosCard.vue";
@@ -17,7 +22,7 @@ export default {
     },
     methods: {
       async getData() {
-        const res = await fetch("http://localhost:3004/parceiros?_page=1&_limit=6");
+        const res = await fetch("http://localhost:3004/parceiros");
         const finalRes = await res.json();
         this.listItems = finalRes;
         console.log(finalRes)
@@ -30,5 +35,10 @@ export default {
 
 </script>
 <style scoped>
+  .parceiros{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 
 </style>

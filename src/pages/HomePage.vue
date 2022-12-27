@@ -1,6 +1,6 @@
 <template>
 
-    <h1 class="title">Parceiros</h1>
+    <h1 class="title title-home">Parceiros</h1>
     <ParceirosHome></ParceirosHome>
 </template>
 <script>
@@ -12,5 +12,11 @@ export default {
   }
 }
 </script>
+<style scoped>
+  .title-home{
+    font-size: 30px;
+    text-align: center;
+  }
+</style>
 
 

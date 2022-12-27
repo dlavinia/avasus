@@ -15,6 +15,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.page-container{
+    width: 65%;
+    margin: 3rem auto;
+}
 ul{
     list-style: none;
 }
@@ -26,7 +31,7 @@ ul{
     padding: 8px 30px;
     margin-left: 16px;
 }
-.btn-primary{
+.btn-primary{text-align: center;
     color: #fff;
     background-color: var(--second-color);    
 }
@@ -36,8 +41,19 @@ ul{
 }
 .title{
     font-weight: 600;
-    font-size: 30px;
+    font-size: 40px;
     line-height: 37px;
     color: var(--main-color);
-    text-align: center;
+}
+
+.bread-cumb{
+    display: flex;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 30px 0;
+}
+.bread-cumb a{
+    color: var(--second-color);
+    margin-right: 5px;
 }
