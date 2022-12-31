@@ -54,10 +54,10 @@ export default {
   .card:nth-child(3n+1) {
     align-items: flex-start;
 }
-.card:nth-child(3n+2) {
+  .card:nth-child(3n+2) {
     align-items: center;
 }
-.card:nth-child(3n+3) {
+  .card:nth-child(3n+3) {
     align-items: flex-end;
 }
 </style>

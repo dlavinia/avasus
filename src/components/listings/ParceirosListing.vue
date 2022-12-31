@@ -15,7 +15,7 @@
 </template>
 <script>
 import Paginate from 'vuejs-paginate-next';
-import ParceirosCard from "@/components/ParceirosCard.vue";
+import ParceirosCard from "@/components/cards/ParceirosCard.vue";
 export default {
   name: 'ParceirosListing',
   components: {
@@ -58,7 +58,7 @@ export default {
 
 </script>
 <style scoped>
-@import '../styles/pagination.css';
+@import '../../styles/pagination.css';
 
 .parceiros {
   display: flex;
