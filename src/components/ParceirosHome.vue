@@ -1,5 +1,5 @@
 <template>
-  <section id="parceiros">
+  <section class="content">
         <ul>
             <li> 
                 <h2>Governo do RN</h2>
@@ -26,20 +26,13 @@ export default {
 }
 </script>
 <style scoped>
-    #parceiros{
-        display: flex;
-        justify-content: center;
-        width: 100%;
-
-    }
-
     ul{
         display: flex;
         background-color: var(--bg-card);
         border-radius: 24px;
         width: 70%;
         padding: 1rem;
-        margin: 2rem 0;
+
     }
 
     ul li{

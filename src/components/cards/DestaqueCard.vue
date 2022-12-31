@@ -15,7 +15,7 @@
         <img class="icon" src="@/assets/icons/clock.svg">
         <p>{{ duracao }}</p>
       </section>
-      <RatingApp></RatingApp>
+      <RatingApp :a=avaliacao></RatingApp>
       <button class="btn btn-primary">
         Ver módulo
       </button>
@@ -35,7 +35,7 @@ export default {
       capa:String,
       matriculados: Number,
       duracao:String,
-      avaliacao:Number
+      avaliacao:String
 
     }
 
@@ -47,11 +47,11 @@ export default {
       margin-top: 30px;
       width: 70%;
       display: flex;
-      justify-content: flex-start;
+      justify-content: space-between;
       align-items: center;
       flex-direction: row;
       background-color: var(--bg-card);
-      padding: 1rem;
+      padding: 1.2rem;
       border-radius: 20px;
     }
     .card section{
@@ -70,7 +70,7 @@ export default {
       color:var(--main-color)
     }
     .infos{
-      width:30%;
+      width:36%;
     }
     figure {
       width: 120px;

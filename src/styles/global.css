@@ -18,7 +18,13 @@
     width: 65%;
     margin: 3rem auto;
 }
-
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
 ul {
     list-style: none;
 }
@@ -71,3 +77,15 @@ ul {
     margin-right: 5px;
 }
 
+.info-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .info-icon p{
+    font-weight: 400;
+    font-size: 18px;
+    padding: 0 14px;
+    
+    }

@@ -9,11 +9,11 @@
         </section>
 
         <section class="footer-2">
-            <div class="col15">
+            <div class="col20">
                 <img src="@/assets/logo-lais.svg" id="logo-footer" alt="Lais">
                 <p>Laboratório de Inovação <br> Tecnológica em Saúde.</p>
             </div>
-            <div class="col15">
+            <div class="col20">
                 <h1>Links Úteis</h1>
                 <nav>
                     <ul>
@@ -25,7 +25,7 @@
                     </ul>  
                 </nav>
             </div>
-            <div class="col15" id="socialmedia">
+            <div class="col20" id="socialmedia">
                 <h1>Redes sociais</h1>
                 <ul>
                     <li><a href="#"> <img src="@/assets/icons/facebook.svg" alt="facebook"> </a></li>
@@ -94,7 +94,7 @@ export default {
     #socialmedia ul li{
         margin: 20px 16px;
     }
-    .col15{
+    .col20{
         width: 20%;
     }
 

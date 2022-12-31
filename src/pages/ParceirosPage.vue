@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import ParceirosListing from "@/components/ParceirosListing.vue";
+import ParceirosListing from "@/components/listings/ParceirosListing.vue";
 export default {
     name: 'ParceirosPage',
     components: {
