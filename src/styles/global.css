@@ -69,14 +69,13 @@ ul {
     font-weight: 600;
     font-size: 16px;
     line-height: 20px;
-    margin: 30px 0;
+    padding: 30px 0;
 }
 
-.bread-cumb a {
+.bread-cumb a{
     color: var(--second-color);
     margin-right: 5px;
 }
-
 .info-icon{
     display: flex;
     justify-content: center;

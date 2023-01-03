@@ -18,6 +18,8 @@
         :avaliacao= "item.avaliacao"
         ></DestaquesCard>
       </section>
+
+      <button class="btn btn-primary"> Ver mais </button>
     </section>
   </template>
   <script>
@@ -83,6 +85,14 @@
       flex-direction: column;
       align-items: center;
       width: 100%;
+    }
+
+    .btn-primary{
+      font-size: 25px;
+     line-height: 30px;
+     padding: 10px 100px;
+     border-radius: 25px;
+     margin: 3rem;
     }
   </style>
   
