@@ -1,7 +1,6 @@
 <template>
   <header>
-     
-    <figure class="logo">
+        <figure class="logo">
                 <img src="@/assets/logo-menu.svg" alt="logo AVASUS">
           </figure>
      <img id="menu-mobile" v-on:click="openMenu" src="https://raw.githubusercontent.com/dlavinia/feliznatal/1730a7fd4a3bb7c0edca1c9e7c0b4b3c5c11419a/src/assets/menu-hamburguer.svg" alt="menu">
@@ -59,6 +58,9 @@ export default {
       padding:24px 2rem;
       width: 100%;
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+      position: sticky;
+      top: 0;
+      z-index: 999;
 
   }
   nav{
