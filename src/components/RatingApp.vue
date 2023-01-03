@@ -3,7 +3,8 @@
       <div v-for="s in stars" :key="s"  >
         <img class="star" :src="baseUrl+s">
       </div>
-      <p>{{ a }}</p>
+      <p :class="{bold: bold}"> {{ a }}</p>
+
     </section>
 
 </template>
@@ -11,7 +12,8 @@
 export default {
   name: 'RatingApp',
   props:{
-    a:String
+    a:String,
+    bold: Boolean,
   },
   data(){
     return{
@@ -48,10 +50,10 @@ mounted() {
       display: flex;
       align-items: center;
     }
-    .rating p{
+    .star{
       margin: 0 4px;
     }
-    .star{
-      margin: 0 2px;
+    .bold{
+      font-weight: 600;
     }
 </style>
