@@ -70,7 +70,7 @@ export default {
       color:var(--main-color)
     }
     .infos{
-      width:36%;
+      width:34%;
     }
     figure {
       width: 120px;

@@ -18,8 +18,7 @@
         :avaliacao= "item.avaliacao"
         ></DestaquesCard>
       </section>
-
-      <button class="btn btn-primary"> Ver mais </button>
+      <router-link class="btn btn-primary" to="cursos/modulos">Ver mais</router-link>
     </section>
   </template>
   <script>

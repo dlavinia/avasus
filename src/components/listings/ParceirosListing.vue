@@ -1,6 +1,6 @@
 <template>
   <section>
-    <p class="count">{{ 6*page }} de {{ totalParceiros.length }} encontrados</p>
+    <p class="count">{{ 6 * page }} de {{ totalParceiros.length }} encontrados</p>
 
     <section class="parceiros">
       <ParceirosCard v-for="item in listItems" :key="item.id" :titulo=item.titulo :capa=item.capa></ParceirosCard>
@@ -10,7 +10,7 @@
       <paginate v-model="page" :page-count="totalPages" :page-range="5" :margin-pages="0" :click-handler="clickCallback"
         :next-text="'Próximo'" :container-class="'pagination'" :page-class="'page-item'">
       </paginate>
-     </section>
+    </section>
   </section>
 </template>
 <script>
