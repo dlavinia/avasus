@@ -1,5 +1,5 @@
 <template>
-    <section id="header-curso" :style="'background-image:url('+capa+')'">
+    <section id="header-curso" >
       <main class="header-content" >
         <section class="bread-cumb">
           <router-link to="/">Inicio /</router-link>
@@ -17,15 +17,15 @@
 
 </template>
 <script>
+
 export default {
   name: 'HeaderCurso',
   props:{
-    capa:String,
     titulo: String,
     parceiros: String,
 
   },
-
+ 
 }
 </script>
 

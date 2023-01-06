@@ -5,7 +5,7 @@
         <p>{{duracao}}</p>
       </section>
       <section class="info-icon">
-        <img class="icon" src="@/assets/icons/users.svg">
+        <img class="icon" src="@/assets/icons/calendar.svg">
         <p>Desde {{criacao}}</p>
       </section>
       <section class="info-icon">
@@ -14,6 +14,7 @@
       </section> 
       <section class="info-icon">
         <RatingApp :a=4.32 bold></RatingApp>
+        <p id="num_ava">({{ numero_avaliacoes }} avaliações)</p>
       </section>
       
     </section>
@@ -46,5 +47,8 @@ export default {
     }
     #infosgerais p{
         font-weight: 600;
+    }
+    #num_ava{
+      margin-left: -22px;
     }
 </style>

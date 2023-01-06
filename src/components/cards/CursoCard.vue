@@ -1,5 +1,5 @@
 <template>
-    <div class="card">
+    <div class="card-curso">
         <figure>
             <img :src=capa>
         </figure>
@@ -51,11 +51,23 @@ export default {
 
 </script>
 <style scoped>
-.card {
+.card-curso{
     width: 30%;
     margin: 1rem 0;
 
 }
+.card {
+        margin-top: 30px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        padding: 40px;
+        border-radius: 20px;
+        flex-wrap: wrap;
+    
+    }
 
 h1 {
     font-weight: 600;

@@ -12,7 +12,7 @@
 export default {
   name: 'RatingApp',
   props:{
-    a:String,
+    a:Number || String,
     bold: Boolean,
   },
   data(){

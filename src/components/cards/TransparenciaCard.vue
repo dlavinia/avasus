@@ -1,5 +1,9 @@
 <template>
     <div class="card">
+        <section class="title-card">
+            <h2> Dados Gerais </h2>
+        </section>
+        
         <section class="info info25">
             <div class="label">
                 <img class="icon" src="@/assets/icons/users.svg">
@@ -61,22 +65,7 @@ export default {
 
 </script>
 <style scoped>
-.card {
-    margin-top: 30px;
-    width: 70%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-    background-color: var(--bg-card);
-    padding: 1.2rem;
-    border-radius: 20px;
-    flex-wrap: wrap;
-}
 
-.card section {
-    padding: 0 20px;
-}
 
 h2 {
     font-weight: 600;
@@ -99,11 +88,19 @@ h2 {
     align-items: center;
     font-weight: 600;
     font-size: 16px;
-    margin: 15px 0; 
 }
 .info .label .icon{
     height: 18px;
     margin-right: 5px;
 }
-
+.title-card {
+    width: 100%;
+    margin-bottom: 30px;;
+}
+.title-card h2{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    margin: 0;
+}
 </style>
