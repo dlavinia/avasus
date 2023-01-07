@@ -56,4 +56,9 @@ mounted() {
     .bold{
       font-weight: 600;
     }
+    @media only screen and (max-width: 600px){
+      .star {
+        height: 16px;
+      }
+    }
 </style>

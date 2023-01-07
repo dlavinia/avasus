@@ -135,5 +135,14 @@ export default {
     border-radius: 25px;
     margin: 3rem;
 }
+@media only screen and (max-width: 600px){
+    .abas ul {
+        overflow: scroll;
+}
+.abas ul li {
+    font-size: 16px;
+    line-height: 18px;
+}
+    }
 </style>
   

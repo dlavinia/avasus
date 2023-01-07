@@ -41,5 +41,16 @@ export default {
         text-align: center;
         margin: 32px;
     }
+    @media only screen and (max-width: 600px){
+        ul{
+        flex-direction: column;
+        width: 90%;
+
+    }
+    ul li{
+        width: 100%;
+        margin: 30px 0;
+    }
+    }
 </style>
 

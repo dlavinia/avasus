@@ -92,6 +92,20 @@ h2 {
 .info .label .icon{
     height: 18px;
     margin-right: 5px;
+    width: 25%;
+    margin-bottom: 45px;
 }
-
+@media only screen and (max-width: 600px){
+    .info25, .info50{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.info .label{
+    justify-content: left;
+    align-items: flex-start;
+}
+h2 {
+    margin-top:0;
+}
+}
 </style>

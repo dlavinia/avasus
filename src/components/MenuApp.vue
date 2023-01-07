@@ -110,15 +110,17 @@ export default {
   }
   .logo img{
       width: 90%;
+      padding: 1rem 2rem 1rem 0;
   }
   .logo-menu-mobile{
     display: block;
+    padding-left: 2rem;
   }
   nav{
       position: fixed;
       top: 0;
       right: 0;
-      width: 70%;
+      width: 75%;
       height: 100vh;
       padding-top: 20%;
       background-color:#fff;

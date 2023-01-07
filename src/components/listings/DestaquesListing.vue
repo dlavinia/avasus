@@ -40,10 +40,7 @@
         const res = await fetch("http://localhost:3004/cursos?_sort="+ aba +"&_order=desc&_limit=3");
         const finalRes = await res.json();
         this.listItems = finalRes;
-        this.abaActive = aba;
-        console.log(this.abaActive)
-        console.log(aba)
-        
+        this.abaActive = aba;        
         },
     },
     mounted() {
@@ -92,6 +89,17 @@
      padding: 10px 100px;
      border-radius: 25px;
      margin: 3rem;
+    }
+    @media only screen and (max-width: 600px){
+      .abas ul{
+      width: 100%;
+
+    justify-content: center;
+      }
+      .abas ul li{
+      margin-right: 10px;
+      font-size: 16px;
+      }
     }
   </style>
   

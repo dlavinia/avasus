@@ -51,4 +51,5 @@ export default {
     #num_ava{
       margin-left: -22px;
     }
+    
 </style>

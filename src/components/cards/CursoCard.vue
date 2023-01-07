@@ -132,4 +132,12 @@ figure img {
     font-size: 18px;
     color: var(--second-color);
 }
+
+@media only screen and (max-width: 600px){
+    .card-curso{
+    width: 100%;
+
+}
+}
+
 </style>

@@ -84,5 +84,22 @@ export default {
       height: 100%;
     }
 
-    
+    @media only screen and (max-width: 600px){
+      .card{
+      width: 90%;
+    }
+    .infos{
+      width:62%;
+    }
+    h1{
+      font-size: 16px;
+      line-height: 18px;
+    }
+    .card section{
+      padding: 15px 0px;
+    }
+    .icon{
+      height: 18px;
+    }
+    }
 </style>
