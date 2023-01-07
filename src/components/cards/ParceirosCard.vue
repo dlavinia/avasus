@@ -1,5 +1,5 @@
 <template>
-    <div class="card">
+    <div class="card-p">
       <figure>
         <img :src=capa alt="">
       </figure>
@@ -17,7 +17,7 @@ export default {
 
 </script>
 <style scoped>
-    .card{
+    .card-p{
       margin-top: 60px;
       width: 33%;
       display: flex;
@@ -26,7 +26,7 @@ export default {
     }
 
 
-    .card figure{
+    .card-p figure{
       width: 350px;
       height: 200px;
       display: flex;
@@ -34,7 +34,7 @@ export default {
       align-items: center;
 
     }
-  .card h1{
+  .card-p h1{
     border-top: 2px solid var(--main-color);
     color: var( --text-color-dark);
     text-align: center;
@@ -46,18 +46,18 @@ export default {
     width: 380px;
   }
 
-  .card img{
+  .card-p img{
     max-width: 100%;
     max-height: 100%;
   }
 
-  .card:nth-child(3n+1) {
+  .card-p:nth-child(3n+1) {
     align-items: flex-start;
 }
-  .card:nth-child(3n+2) {
+  .card-p:nth-child(3n+2) {
     align-items: center;
 }
-  .card:nth-child(3n+3) {
+  .card-p:nth-child(3n+3) {
     align-items: flex-end;
 }
 </style>
