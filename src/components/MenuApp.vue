@@ -12,9 +12,9 @@
           <ul>
               <li> <a href="http://localhost:8080/">Início</a></li>
               <li> <a href="#">Sobre Nós</a></li>
-              <li> <a href="#">Cursos</a></li>
-              <li> <a href="#">Parceiros</a></li>
-              <li> <a href="#">Transparência</a></li>
+              <li> <a href="/cursos/modulos">Cursos</a></li>
+              <li> <a href="/#/parceiros">Parceiros</a></li>
+              <li> <a href="#/transparencia/">Transparência</a></li>
               <li> <a href="#">Contato</a></li>
           </ul>
             <SearchApp></SearchApp>
