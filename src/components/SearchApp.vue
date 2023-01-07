@@ -43,10 +43,10 @@ export default {
       color: #fff;
       font-size: 16px;
       font-weight: 600;
-      z-index: -1;
+      opacity: 0;
     }
 
     #search input:active ~ button,  #search input:valid ~ button{
-      z-index: 3;
+      opacity: 1;
     }
 </style>
