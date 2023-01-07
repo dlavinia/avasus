@@ -119,3 +119,9 @@ ul {
         margin: 0;
     }
     
+@media only screen and (max-width: 600px){
+    .page-container {
+        width: 85%;
+        margin: 1rem auto;
+    }
+}

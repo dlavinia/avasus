@@ -16,9 +16,9 @@
         <p>{{ duracao }}</p>
       </section>
       <RatingApp :a=avaliacao></RatingApp>
-      <button class="btn btn-primary">
+      <router-link  :to="'cursos/'+id" class="btn btn-primary">
         Ver módulo
-      </button>
+      </router-link>
     </div>
 </template>
 <script>

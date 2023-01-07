@@ -65,4 +65,11 @@ export default {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+@media only screen and (max-width: 600px){
+  .parceiros {
+    justify-content:center;
+  }
+
+  
+  }
 </style>

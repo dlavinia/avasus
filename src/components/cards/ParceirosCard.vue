@@ -60,4 +60,21 @@ export default {
   .card-p:nth-child(3n+3) {
     align-items: flex-end;
 }
+
+@media only screen and (max-width: 600px){
+  .card-p{
+      margin-top: 60px;
+      width: 60%;
+      
+    }
+    .card-p:nth-child(3n+1) {
+    align-items: center;
+}
+  .card-p:nth-child(3n+2) {
+    align-items: center;
+}
+  .card-p:nth-child(3n+3) {
+    align-items:center;
+}
+}
 </style>
