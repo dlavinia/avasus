@@ -1,6 +1,6 @@
 <template>
     <div class="card">
-        <section class="title-card">
+        <section class="title title-card">
             <h2> Dados Gerais </h2>
         </section>
         
@@ -69,7 +69,7 @@ export default {
 
 h2 {
     font-weight: 600;
-    font-size: 30px;
+    font-size: 25px;
     line-height: 16px;
     color: var(--main-color);
     margin-top:15px;
@@ -93,14 +93,5 @@ h2 {
     height: 18px;
     margin-right: 5px;
 }
-.title-card {
-    width: 100%;
-    margin-bottom: 30px;;
-}
-.title-card h2{
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 30px;
-    margin: 0;
-}
+
 </style>
